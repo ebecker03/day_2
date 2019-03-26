@@ -1,0 +1,86 @@
+/* body changes */
+
+body {
+    background-image: linear-gradient(45deg, #363432, rgb(123, 122, 126));
+    margin: 0px;
+}
+
+/* Header */
+
+.intro {
+    color: #2a2a2b;
+    text-align: center;
+    line-height: 3em;
+    font-family: 'Lobster', cursive;
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+}
+
+/* image */
+
+img {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 100px;
+}
+
+img:hover {
+    border-radius: 0px;
+}
+
+/* lists */
+
+.skills {
+    display: inline-block;
+    width: 500px;
+    margin-left: 275px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.interests {
+    width: 500px;
+    display: inline-block;
+    margin-left: 250px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:visited {
+    color: red;
+}
+
+/* footer */
+
+.end:not(:nth-child(1)) {
+    line-height: 5px;
+    font-size: 16px;
+}
+
+.end:nth-child(1) {
+    font-size: 30px;
+    line-height: 20px;
+}
+
+footer {
+    text-align: center;
+    border-top: 3px solid orange;
+    margin: 0px;
+    width: 100%;
+    background-color: rgba(23, 109, 37, 0.349);
+    padding: 20px;
+}
+
