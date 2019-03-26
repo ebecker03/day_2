@@ -1,0 +1,41 @@
+div {
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    padding-top: 40px;
+    border: 1px solid black;
+}
+
+div:nth-child(even) {
+    background-color: gray;
+}
+
+div:nth-child(1), :nth-child(4), :nth-child(7) {
+    margin-left: 625px;
+}
+
+div:nth-child(n + 1):nth-child(-n + 3) {
+    float: left;
+    margin-top: 200px;
+}
+
+div:nth-child(4) {
+    clear: left;
+}
+
+div:nth-child(n + 4):nth-child(-n + 6) {
+    float: left;
+    background-color: green;
+}
+
+div:nth-child(7) {
+    clear: left;
+}
+
+div:nth-child(n + 7):nth-child(-n + 9) {
+    float: left;
+}
+
+div:nth-child(3), :nth-child(7) {
+    background-color: green;
+}
