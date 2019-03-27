@@ -10,7 +10,7 @@ div:nth-child(even) {
     background-color: gray;
 }
 
-div:nth-child(1), :nth-child(4), :nth-child(7) {
+div:nth-child(3n + 1) {
     margin-left: 625px;
 }
 
